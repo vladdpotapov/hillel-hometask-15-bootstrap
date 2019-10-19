@@ -1,3 +1,37 @@
+.badge-secondary {
+  margin-left: 15px;
+}
 
+.header__buttons-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.breadcrumb-container {
+  margin-top: 50px;
+}
+
+.link {
+  transition: all 0.3s ease;
+}
+.link:hover {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .header__heading {
+    font-size: 40px;
+  }
+
+  .badge-secondary {
+    font-size: 25px;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
